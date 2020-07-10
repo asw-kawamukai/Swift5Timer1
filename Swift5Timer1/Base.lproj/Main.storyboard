@@ -44,9 +44,16 @@
                                     <constraint firstAttribute="height" constant="240" id="rJb-kD-4rb"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="王子で止めてね" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpA-jt-SCN">
+                                <rect key="frame" x="126" y="374" width="122" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="jpA-jt-SCN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="2up-8c-qq9"/>
                             <constraint firstItem="GjU-Eg-rv1" firstAttribute="top" secondItem="eVg-mm-dRX" secondAttribute="bottom" constant="148" id="8zo-nH-vfc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GjU-Eg-rv1" secondAttribute="bottom" constant="86" id="BbK-BG-irh"/>
                             <constraint firstItem="eVg-mm-dRX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="Meb-ga-yxN"/>
@@ -55,9 +62,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eVg-mm-dRX" secondAttribute="trailing" constant="68" id="UT0-FD-13J"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pJv-PB-EWu" secondAttribute="trailing" constant="16" id="VFs-Ci-Otd"/>
                             <constraint firstItem="eVg-mm-dRX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="XbW-34-ebS"/>
+                            <constraint firstItem="jpA-jt-SCN" firstAttribute="top" secondItem="eVg-mm-dRX" secondAttribute="bottom" constant="69" id="ZFo-kG-ows"/>
                             <constraint firstItem="pJv-PB-EWu" firstAttribute="top" secondItem="eVg-mm-dRX" secondAttribute="bottom" constant="148" id="drl-3S-1nP"/>
                             <constraint firstItem="GjU-Eg-rv1" firstAttribute="top" secondItem="eVg-mm-dRX" secondAttribute="bottom" constant="148" id="k84-uk-E1a"/>
                             <constraint firstItem="GjU-Eg-rv1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ppO-uB-F43"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jpA-jt-SCN" secondAttribute="trailing" constant="127" id="u11-a5-A7h"/>
                             <constraint firstItem="pJv-PB-EWu" firstAttribute="leading" secondItem="GjU-Eg-rv1" secondAttribute="trailing" constant="87" id="w7K-E7-lpL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
