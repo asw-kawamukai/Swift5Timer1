@@ -44,33 +44,45 @@
                                     <constraint firstAttribute="height" constant="240" id="rJb-kD-4rb"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnu-98-58p">
+                                <rect key="frame" x="67" y="340" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="GjU-Eg-rv1" firstAttribute="top" secondItem="eVg-mm-dRX" secondAttribute="bottom" constant="148" id="8zo-nH-vfc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GjU-Eg-rv1" secondAttribute="bottom" constant="86" id="BbK-BG-irh"/>
+                            <constraint firstItem="xnu-98-58p" firstAttribute="top" secondItem="eVg-mm-dRX" secondAttribute="bottom" constant="35" id="DOt-pc-LRD"/>
+                            <constraint firstItem="GjU-Eg-rv1" firstAttribute="top" secondItem="xnu-98-58p" secondAttribute="bottom" constant="92" id="Evh-Ro-ZV3"/>
+                            <constraint firstItem="xnu-98-58p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="FZO-H8-ORk"/>
                             <constraint firstItem="eVg-mm-dRX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="Meb-ga-yxN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pJv-PB-EWu" secondAttribute="bottom" constant="86" id="RVz-wI-ot1"/>
                             <constraint firstItem="pJv-PB-EWu" firstAttribute="leading" secondItem="GjU-Eg-rv1" secondAttribute="trailing" constant="87" id="TkN-hw-Smn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eVg-mm-dRX" secondAttribute="trailing" constant="68" id="UT0-FD-13J"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pJv-PB-EWu" secondAttribute="trailing" constant="16" id="VFs-Ci-Otd"/>
                             <constraint firstItem="eVg-mm-dRX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="XbW-34-ebS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xnu-98-58p" secondAttribute="trailing" constant="68" id="cKT-gc-1ey"/>
                             <constraint firstItem="pJv-PB-EWu" firstAttribute="top" secondItem="eVg-mm-dRX" secondAttribute="bottom" constant="148" id="drl-3S-1nP"/>
                             <constraint firstItem="GjU-Eg-rv1" firstAttribute="top" secondItem="eVg-mm-dRX" secondAttribute="bottom" constant="148" id="k84-uk-E1a"/>
                             <constraint firstItem="GjU-Eg-rv1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ppO-uB-F43"/>
+                            <constraint firstItem="xnu-98-58p" firstAttribute="width" secondItem="eVg-mm-dRX" secondAttribute="width" id="ukP-5G-fzd"/>
                             <constraint firstItem="pJv-PB-EWu" firstAttribute="leading" secondItem="GjU-Eg-rv1" secondAttribute="trailing" constant="87" id="w7K-E7-lpL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="eVg-mm-dRX" id="jUc-K6-AQP"/>
+                        <outlet property="label" destination="xnu-98-58p" id="zjH-ob-2Wl"/>
                         <outlet property="startButton" destination="pJv-PB-EWu" id="uWq-7G-a3W"/>
                         <outlet property="stopButton" destination="GjU-Eg-rv1" id="DYq-mT-Jy0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="88.392857142857139"/>
+            <point key="canvasLocation" x="130.40000000000001" y="87.706146926536732"/>
         </scene>
     </scenes>
     <resources>
