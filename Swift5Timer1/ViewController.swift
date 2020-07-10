@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         count = 0
         
         stopButton.isEnabled = false
-        
+        //test
         for i in 0..<5 {
             print(i)
             
