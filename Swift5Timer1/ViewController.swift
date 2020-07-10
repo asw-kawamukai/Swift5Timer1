@@ -31,7 +31,7 @@ class ViewController: UIViewController {
             imageArray.append(image!)
         }
         
-        imageView.image = UIImage(named: "0")
+        imageView.image = UIImage(named: "Image")
         
     }
     
