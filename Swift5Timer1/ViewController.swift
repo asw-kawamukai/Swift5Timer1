@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
-    @IBOutlet weak var label: UILabel!
     
     var timer = Timer()
     var count = Int()
@@ -21,7 +20,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        label.text = "スタートボタンを押してね！"
         
         count = 0
         
@@ -64,7 +62,6 @@ class ViewController: UIViewController {
         startButton.isEnabled = false
         stopButton.isEnabled = true
         
-        label.text = "ストップボタンを押してね！"
     }
     
     @IBAction func stopCount(_ sender: Any) {
@@ -72,7 +69,6 @@ class ViewController: UIViewController {
         stopButton.isEnabled = false
         timer.invalidate()
         
-        label.text = "スタートボタンを押してね！"
     }
 }
 
