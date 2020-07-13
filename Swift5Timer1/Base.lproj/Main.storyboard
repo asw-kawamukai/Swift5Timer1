@@ -59,7 +59,6 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="jpA-jt-SCN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="2up-8c-qq9"/>
                             <constraint firstItem="GjU-Eg-rv1" firstAttribute="top" secondItem="eVg-mm-dRX" secondAttribute="bottom" constant="148" id="8zo-nH-vfc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GjU-Eg-rv1" secondAttribute="bottom" constant="86" id="BbK-BG-irh"/>
                             <constraint firstItem="xnu-98-58p" firstAttribute="top" secondItem="eVg-mm-dRX" secondAttribute="bottom" constant="35" id="DOt-pc-LRD"/>
