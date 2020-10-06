@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var timer = Timer()
     var count = Int()
     var imageArray = [UIImage]()
-    
+    print(test)
     override func viewDidLoad() {
         super.viewDidLoad()
         
